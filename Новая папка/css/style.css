@@ -1,0 +1,122 @@
+/* .blok{
+    width: 1000px;
+    height: 700px;
+    border: 2px solid red;
+    margin: auto;
+}
+.item{
+    height: 150px;
+    width: 150px;
+    border: 1px solid black;
+    background: blue;
+    transform: translateX(200px) translateY(200px);
+    transition: 1s;
+    transform: scale(0);
+    transform: skew(0);
+    animation: animatsiya 5s infinite;
+    animation-iteration-count: 3;
+    
+}
+/* .blok:hover .item{ */
+    /* transform:scale(1) rotate(360deg); */
+/* } */
+
+/* @keyframes animatsiya {
+   to{
+       background: red;
+   }
+   from{
+       background: black;
+   }
+
+
+} */
+@import url("https://fonts.googleapis.com/css2?family=Gelasio&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Gelasio", serif;
+}
+header{
+    background: url('../img/tabiat.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: center center;
+
+}
+header .navbar{
+    background: transparent !important;
+    width: 100%;
+}
+header .navbar .navbar-nav .nav-link{
+    font-size: 18px;
+    color: white;
+    font-weight: 400px;
+}
+header .navbar .navbar-brand {
+    font-size: 24px;
+    color: white;
+    font-weight: 500px;
+}
+header h1{
+    font-size:65px;
+    font-weight:700px;
+    color:white;
+    margin-top: 212px;
+    
+}
+header p{
+    font-size:18px;
+    font-weight:400px;
+    line-height:28px;
+    color:white;
+    
+}
+header button.click{
+    margin-bottom: 244px !important;
+
+}
+main h3{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    text-align: center;
+
+}
+main p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+
+}
+section .card .fa.fa-location-arrow{
+    color: #fc1200;
+    margin-left: 10px;
+    font-size: 20px;
+}
+section .card p{
+    font-size: 20px;
+    font-weight: 400;
+}
+section .card .fa.fa-star{
+    color: #ffc700;
+    margin-left: 10px;
+    font-size: 20px;
+}
+section h3{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    margin-top:20px;
+    margin-bottom: 8px;
+}
+section .card{
+    border: none;
+}
+footer h4{
+    font-family: 'Roboto', sans-serif;
+}
